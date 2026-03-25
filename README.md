@@ -81,9 +81,15 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: https://github.com/langchain-ai/langchain
+2. Gráfico selecionado: ![Gráfico selecionado](./Grafico.png)
+3. Explicação:
+
+O gráfico evidencia uma evolução marcante no número de arquivos de produção e de teste ao longo do tempo, com crescimento discreto entre 2022 e 2023, seguido de um aumento abrupto entre 2023 e 2024. Esse salto coincide com a popularização dos grandes modelos de linguagem, que impulsionaram significativamente o desenvolvimento de frameworks como o LangChain. Nesse período, observa-se uma expansão acelerada do código de produção, provavelmente associada à incorporação de novas funcionalidades, integrações com diferentes provedores de modelos e experimentações típicas de um ecossistema em rápida evolução. A partir de 2024, o crescimento se mantém, porém em ritmo mais moderado, indicando um possível início de maturação do projeto.
+
+Em relação aos arquivos de teste, embora haja crescimento ao longo do tempo, ele ocorre em proporção significativamente menor quando comparado ao código de produção. Essa diferença pode ser explicada não apenas pela velocidade de desenvolvimento, mas também pelas dificuldades inerentes ao teste de sistemas baseados em LLMs. Como esses modelos apresentam comportamento não determinístico, torna-se mais complexo de aplicar abordagens tradicionais de teste, exigindo métodos alternativos como avaliações qualitativas ou heurísticas. Além disso, parte relevante do código pode consistir em integrações e camadas intermediárias, que tendem a receber menos testes unitários convencionais. Esse cenário sugere uma priorização inicial de entrega de funcionalidades em detrimento da cobertura de testes.
+
+Por fim, a queda observada entre 2025 e 2026 em ambas as curvas pode indicar uma mudança de fase no projeto, como processos de refatoração, remoção de código obsoleto ou reorganização arquitetural. Também é possível que o repositório tenha atingido um nível maior de estabilidade, reduzindo a necessidade de expansão contínua. No entanto, a manutenção de uma diferença significativa entre arquivos de produção e de teste ao longo de todo o período pode sinalizar a presença de dívida técnica, o que representa um risco potencial para a sustentabilidade e a evolução do projeto no longo prazo.
 
 
 
